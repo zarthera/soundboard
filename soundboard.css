@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 40vh;
+    background-color: #1b1b1b;
+    min-height: 95vh;
+}
+
+.title{
+    color: white;
+    font-size: 36px;
+}
+.keys{
+    display: flex;
+    justify-content: space-evenly;
+    width: 95vw;
+}
+
+.key{
+    border: 2px solid rgb(167, 163, 163);
+    width: 160px;
+    height: 100px;  
+    background: none;
+    color: white;
+    font-size: 26px;
+
+}
+
+.key:hover{
+    transition: all 0.1s ease;
+    transform: scale(1.2);
+    cursor: pointer;
+}
