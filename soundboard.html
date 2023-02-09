@@ -10,15 +10,25 @@
 <body>
     <div class="title">Soundboard</div>
     <div class="keys">
-        <button class="key">Bababooey</button>
-        <button class="key">Aw Fuck</button>
-        <button class="key">Bing Chilling</button>
-        <button class="key">Boom</button>
-        <button class="key">Flight Reacts</button>
-        <button class="key">Bruh</button>
-        <button class="key">Tom Scream</button>
-        <button class="key">YUH</button>
+        <button data-number="1" onclick="playAudio(this)" class="key">Aw Fuck</button>
+        <button data-number="2" onclick="playAudio(this)" class="key">Bababooey</button>
+        <button data-number="3" onclick="playAudio(this)" class="key">Bing Chilling</button>
+        <button data-number="4" onclick="playAudio(this)" class="key">Boom</button>
+        <button data-number="5" onclick="playAudio(this)" class="key">Bruh</button>
+        <button data-number="6" onclick="playAudio(this)" class="key">Flight Reacts</button>
+        <button data-number="7" onclick="playAudio(this)" class="key">Tom Scream</button>
+        <button data-number="8" onclick="playAudio(this)" class="key">YUH</button>
     </div>
+
+    <audio data-number="1" src="sounds/awfuck.mp3"></audio>
+    <audio data-number="2" src="sounds/bababooey.mp3"></audio>
+    <audio data-number="3" src="sounds/bingchilling.mp3"></audio>
+    <audio data-number="4" src="sounds/boom.mp3"></audio>
+    <audio data-number="5" src="sounds/bruh.mp3"></audio>
+    <audio data-number="6" src="sounds/flightreacts.mp3"></audio>
+    <audio data-number="7" src="sounds/tomscream.mp3"></audio>
+    <audio data-number="8" src="sounds/yuh.mp3"></audio>
+
     <script src="soundboard.js"></script>
 </body>
 </html>
