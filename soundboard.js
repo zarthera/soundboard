@@ -13,6 +13,6 @@ function playAudio(clickedObject){
     audio.currentTime = 0;
     audio.play();
     
-    setTimeout(() => {sound.classList.remove('playing')}, durationInMilliseconds)
+    setTimeout(() => {sound.classList.remove('playing')}, durationInMilliseconds - 100)
        
 }
